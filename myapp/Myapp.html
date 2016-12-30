@@ -3,17 +3,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react-dom.js"></script>
 <script type="text/babel">
-
-var myapp= React.createClass({
+var myappdata= React.createClass({
                render(){
-                   return  <h5><a>Athena</a></h5>;
-
+                   return <div>Athena</div>;
     }
-
     });
-    
-
-ReactDOM.render(<myapp />, document.getElementById('myapproot'));
+   
+ReactDOM.render(<myappdata />, document.getElementById('myapproot'));
 </script>
 <div class="row">
              <div class="col-md-12">
@@ -106,54 +102,7 @@ ReactDOM.render(<myapp />, document.getElementById('myapproot'));
                      margin-right: 0px;
                    }
                  </style>
-                 <script>
-                   $(document).ready(function() {
-                   $('.myappsbox .myapps-multiple-items').slick({
-                     arrows: true,
-                     infinite: false,
-                     rows: 3,
-                     slidesPerRow: 2,
-                     // adaptiveHeight: true,
-                     responsive: [
-                       {
-                         breakpoint: 1200,
-                         settings: {
-                           rows: 3,
-                           slidesPerRow: 2
-                         }
-                       },
-                       {
-                         breakpoint: 992,
-                         settings: {
-                           rows: 3,
-                           slidesPerRow: 2
-                         }
-                       },
-                       {
-                         breakpoint: 768,
-                         settings: {
-                           rows: 3,
-                           slidesPerRow: 2
-                         }
-                       },
-                       {
-                         breakpoint: 700,
-                         settings: {
-                           rows: 3,
-                           slidesPerRow: 2
-                         }
-                       },
-                         {
-                           breakpoint: 400,
-                           settings: {
-                             rows: 3,
-                             slidesPerRow: 1
-                           }
-                         }
-                       ]
-                     });
-                   });
-                 </script>
+                 
 
                </div>
              </div>
