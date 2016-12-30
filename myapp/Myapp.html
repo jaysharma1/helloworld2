@@ -1,0 +1,143 @@
+<div class="row">
+             <div class="col-md-12">
+               <div class="headingtitlebox">
+                 <h2 class="headingtitle">
+                   My Apps
+                 </h2>
+                 <div class="all">
+                   <a href="#">ALL</a>&nbsp;&nbsp;
+                   <a href="#" style="font-size:16px;"><i class="fa fa-gear"></i></a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="col-md-12 myappsbox">
+
+               <div class="stdbox">
+                 <div class="stdbar">&nbsp;</div>
+                 <div class="stdiconbox">
+                   <div class="stdicon glyphicon glyphicon-th"></div>
+                 </div>
+
+                 <div class="myappsgroup">
+                   <div class="myapps-multiple-items">
+                     <div id="myapproot">
+
+                     </div>
+                     </div>
+                      </div>
+                 <style>
+                   /*.myappsbox {
+                     display: inline-block !important;
+                     width: 100%;
+                     padding-left:10px;
+                     padding-right:10px;
+                   }
+                   @media (max-width: 699px) {
+                     .myappsbox {
+                       padding-left:0px;
+                       padding-right:0px;
+                     }
+                   }*/
+                   .myappsbox .slick-prev, .myappsbox .slick-next {
+                     height: 100px;
+                     width: 20px;
+                     /*border: 1px solid #999999;*/
+                     z-index: 2;
+                   }
+                   .myappsbox .slick-prev {
+                     left: 0px;
+                     top:86px;
+                   }
+                   .myappsbox .slick-next {
+                     right: 0px;
+                     top:86px;
+                   }
+                   @media (max-width: 1599px) {
+                     .myappsbox .slick-prev, .myappsbox .slick-next {
+                       top: 107px;
+                     }
+                   }
+                   @media (max-width: 991px) {
+                     .myappsbox .slick-prev, .myappsbox .slick-next {
+                       top: 86px;
+                     }
+                   }
+                   @media (max-width: 699px) {
+                     .myappsbox .slick-prev, .myappsbox .slick-next {
+                       right: 0px;
+                     }
+                   }
+                   .myappsbox .slick-prev:hover, .myappsbox .slick-next:hover {
+                     /*background-color: #EEEEEE;*/
+                   }
+                   .myappsbox .slick-prev:before, .myappsbox .slick-next:before {
+                     color: #808080;
+                     font-family: 'Glyphicons Halflings';
+                     font-size: 20px;
+                   }
+                   .myappsbox .slick-prev:before, .myappsbox .slick-next:before {
+                     content: "\e079";
+                   }
+                   .myappsbox .slick-next:before, .myappsbox .slick-next:before {
+                     content: "\e080";
+                   }
+                   .myappsbox .slick-prev:before {
+                     margin-left: 0px;
+                   }
+                   .myappsbox .slick-next:before {
+                     margin-right: 0px;
+                   }
+                 </style>
+                 <script>
+                   $(document).ready(function() {
+                   $('.myappsbox .myapps-multiple-items').slick({
+                     arrows: true,
+                     infinite: false,
+                     rows: 3,
+                     slidesPerRow: 2,
+                     // adaptiveHeight: true,
+                     responsive: [
+                       {
+                         breakpoint: 1200,
+                         settings: {
+                           rows: 3,
+                           slidesPerRow: 2
+                         }
+                       },
+                       {
+                         breakpoint: 992,
+                         settings: {
+                           rows: 3,
+                           slidesPerRow: 2
+                         }
+                       },
+                       {
+                         breakpoint: 768,
+                         settings: {
+                           rows: 3,
+                           slidesPerRow: 2
+                         }
+                       },
+                       {
+                         breakpoint: 700,
+                         settings: {
+                           rows: 3,
+                           slidesPerRow: 2
+                         }
+                       },
+                         {
+                           breakpoint: 400,
+                           settings: {
+                             rows: 3,
+                             slidesPerRow: 1
+                           }
+                         }
+                       ]
+                     });
+                   });
+                 </script>
+
+               </div>
+             </div>
+           </div><!-- end of My Apps --></DIV>
