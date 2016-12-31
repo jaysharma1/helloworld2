@@ -1,0 +1,66 @@
+<div id="myapproot">
+        <!-- this portion is managed by react -->
+    </div>
+<script type="text/javascript" src="/SiteAssets/pnp-ww.js"
+          ww-appname="myappmodule" 
+          ww-appbind="myappmodule.Load"
+          ww-appscripts=
+            '[{"src": "https://unpkg.com/react@15/dist/react.js", "priority":0},
+              {"src": "https://unpkg.com/react-dom@15/dist/react-dom.js", "priority":1},                                
+              {"src": "/siteassets/mycomponentvisible.js", "priority":2},
+              {"src": "/siteassets/embedMyapp.js", "priority":4}             
+             ]'>
+  </script></div>
+
+   <style>
+ .myappsbox .slick-prev, .myappsbox .slick-next {
+                     height: 100px;
+                     width: 20px;
+                     /*border: 1px solid #999999;*/
+                     z-index: 2;
+                   }
+                   .myappsbox .slick-prev {
+                     left: 0px;
+                     top:86px;
+                   }
+                   .myappsbox .slick-next {
+                     right: 0px;
+                     top:86px;
+                   }
+                   @media (max-width: 1599px) {
+                     .myappsbox .slick-prev, .myappsbox .slick-next {
+                       top: 107px;
+                     }
+                   }
+                   @media (max-width: 991px) {
+                     .myappsbox .slick-prev, .myappsbox .slick-next {
+                       top: 86px;
+                     }
+                   }
+                   @media (max-width: 699px) {
+                     .myappsbox .slick-prev, .myappsbox .slick-next {
+                       right: 0px;
+                     }
+                   }
+                   .myappsbox .slick-prev:hover, .myappsbox .slick-next:hover {
+                     /*background-color: #EEEEEE;*/
+                   }
+                   .myappsbox .slick-prev:before, .myappsbox .slick-next:before {
+                     color: #808080;
+                     font-family: 'Glyphicons Halflings';
+                     font-size: 20px;
+                   }
+                   .myappsbox .slick-prev:before, .myappsbox .slick-next:before {
+                     content: "\e079";
+                   }
+                   .myappsbox .slick-next:before, .myappsbox .slick-next:before {
+                     content: "\e080";
+                   }
+                   .myappsbox .slick-prev:before {
+                     margin-left: 0px;
+                   }
+                   .myappsbox .slick-next:before {
+                     margin-right: 0px;
+                   }
+                 </style>
+           
