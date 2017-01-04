@@ -1,0 +1,116 @@
+
+[
+    {"Sites": [
+        {
+            "Name": "9th Division/Infantry",
+            "Type": "Site",
+            "createdby": "created by 9th Division/Infantry",
+            "feeds": [
+                {
+                    "Title": "Laura uploaded <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_3.jpg"
+                },
+                {
+                    "Title": "Lisa uploaded  <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_1.jpg"
+                },
+                {
+                    "Title": "Steven Modified <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "30 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_2.jpg"
+                } 
+            ] 
+        },
+        {
+            "Name": "Finance",
+            "Type": "CoP",
+            "createdby": "created by Defence Finance Organisation",
+            "feeds": [
+                {
+                    "Title": "Laura uploaded <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_3.jpg"
+                },
+                {
+                    "Title": "Lisa uploaded  <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_1.jpg"
+                },
+                {
+                    "Title": "Steven Modified <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "30 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_2.jpg"
+                } 
+            ] 
+        },
+        {
+            "Name": "MINDEF Intranet Revamp",
+            "Type": "PROJECT",
+            "createdby": "created by MIWG",
+            "feeds": [
+                {
+                    "Title": "Laura uploaded <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_3.jpg"
+                },
+                {
+                    "Title": "Lisa uploaded  <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_1.jpg"
+                },
+                {
+                    "Title": "Steven Modified <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "30 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_2.jpg"
+                } 
+            ] 
+        },
+        {
+            "Name": "SAF Day Parade 2017",
+            "Type": "PROJECT",
+            "createdby": "created by JOINT",
+            "feeds": [
+                {
+                    "Title": "Laura uploaded <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_3.jpg"
+                },
+                {
+                    "Title": "Lisa uploaded  <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_1.jpg"
+                },
+                {
+                    "Title": "Steven Modified <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "30 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_2.jpg"
+                } 
+            ] 
+        },
+        {
+            "Name": "Joint Trip Budgetary Report",
+            "Type": "AD-HOC",
+            "createdby": "created by Tan Kah Kee",
+            "feeds": [
+                {
+                    "Title": "Laura uploaded <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_3.jpg"
+                },
+                {
+                    "Title": "Lisa uploaded  <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "0 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_1.jpg"
+                },
+                {
+                    "Title": "Steven Modified <a href='9_division_infantry_photogallery_album.html' tabindex='0'><strong>Team_Building </strong></a>",
+                    "timeago": "30 min ago",
+                    "imgsrc":"/Style%20Library/mindef/img/face_2.jpg"
+                } 
+            ] 
+        }
+    ]
+}
+]

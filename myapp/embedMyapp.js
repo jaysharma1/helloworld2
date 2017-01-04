@@ -1,15 +1,16 @@
 "use strict";
  var myappmodule = myappmodule || {};
 myappmodule.Load = function () {
+"use strict";
 var MyApp = React.createClass({
     displayName: "MyApp",
     render: function render() {
         return React.createElement(
             "div",
-            { "class": "item match-height" },
+            { className: "item match-height" },
             React.createElement(
                 "div",
-                { "class": "leftcol" },
+                { className: "leftcol" },
                 React.createElement(
                     "a",
                     { href: "myapps_goms.html" },
@@ -18,7 +19,7 @@ var MyApp = React.createClass({
             ),
             React.createElement(
                 "div",
-                { "class": "rightcol" },
+                { className: "rightcol" },
                 React.createElement(
                     "h5",
                     null,
@@ -42,12 +43,12 @@ var MyAppdata = React.createClass({
     getInitialState: function getInitialState() {
         // returning sample data before the actual is retrieved via fetch
         return {
-            promodata: [{ "Url": "myapps_goms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps-1.png", "Title": "GOMs, Directives & Circulars" }, { "Url": "myapps_gomss.html", "ImageUrl": "/Style%20Library/mindef/img/myapps-2.png", "Title": "Athena" }, { "Url": "myapps_gosms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps-3.png", "Title": "e-HR" }, { "Url": "myapps_goams.html", "ImageUrl": "/Style%20Library/mindef/img/myapps-4.png", "Title": "AOR for Overseas Travel Workflow" }, { "Url": "myapps_agoms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_5.png", "Title": "Electronic Procurement System" }, { "Url": "myapps_gaosms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_6.png", "Title": "Help Me" }, { "Url": "myapps_gaoms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_7.png", "Title": "iWADS" }, { "Url": "myapps_agoms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_8.png", "Title": "Suggestions / WITS (InnoBank)" }]
+            promodata: [{ "Url": "myapps_goms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps-1.png", "Title": "GOMs, Directives & Circulars" }, { "Url": "myapps_gomss.html", "ImageUrl": "/Style%20Library/mindef/img/myapps-2.png", "Title": "Athena" }, { "Url": "myapps_gosms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_3.png", "Title": "e-HR" }, { "Url": "myapps_goams.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_4.png", "Title": "AOR for Overseas Travel Workflow" }, { "Url": "myapps_agoms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_5.png", "Title": "Electronic Procurement System" }, { "Url": "myapps_gaosms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_6.png", "Title": "Help Me" }, { "Url": "myapps_gaoms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_7.png", "Title": "iWADS" }, { "Url": "myapps_agoms.html", "ImageUrl": "/Style%20Library/mindef/img/myapps_8.png", "Title": "Suggestions / WITS (InnoBank)" }]
         };
     },
     retrieveFromWebService: function retrieveFromWebService() {
         var that = this;
-        var url = 'myapp.js';
+        var url = 'myapp.json';
         fetch(url).then(function (response) {
             if (response.status >= 400) {
                 throw new Error("Bad response from server");
@@ -64,26 +65,25 @@ var MyAppdata = React.createClass({
         this.disableVisibilityHandling();
     },
     renderPromotions: function renderPromotions() {
-
-        return this.state.promodata.map(function (promoitem) {
-            return React.createElement(MyApp, { appitem: promoitem });
+        return this.state.promodata.map(function (promoitem, idx) {
+            return React.createElement(MyApp, { appitem: promoitem, key: idx });
         });
     },
     render: function render() {
         return React.createElement(
             "div",
-            { "class": "col-md-12" },
+            { className: "col-md-12" },
             React.createElement(
                 "div",
-                { "class": "headingtitlebox" },
+                { className: "headingtitlebox" },
                 React.createElement(
                     "h2",
-                    { "class": "headingtitle" },
+                    { className: "headingtitle" },
                     "My Apps"
                 ),
                 React.createElement(
                     "div",
-                    { "class": "all" },
+                    { className: "all" },
                     React.createElement(
                         "a",
                         { href: "#" },
@@ -93,32 +93,32 @@ var MyAppdata = React.createClass({
                     React.createElement(
                         "a",
                         { href: "#" },
-                        React.createElement("i", { "class": "fa fa-gear" })
+                        React.createElement("i", { className: "fa fa-gear" })
                     )
                 )
             ),
             React.createElement(
                 "div",
-                { "class": "col-md-12 myappsbox" },
+                { className: "col-md-12 myappsbox" },
                 React.createElement(
                     "div",
-                    { "class": "stdbox" },
+                    { className: "stdbox" },
                     React.createElement(
                         "div",
-                        { "class": "stdbar" },
+                        { className: "stdbar" },
                         "\xA0"
                     ),
                     React.createElement(
                         "div",
-                        { "class": "stdiconbox" },
-                        React.createElement("div", { "class": "stdicon glyphicon glyphicon-th" })
+                        { className: "stdiconbox" },
+                        React.createElement("div", { className: "stdicon glyphicon glyphicon-th" })
                     ),
                     React.createElement(
                         "div",
-                        { "class": "myappsgroup" },
+                        { className: "myappsgroup" },
                         React.createElement(
                             "div",
-                            { "class": "myapps-multiple-items" },
+                            { className: "myapps-multiple-items" },
                             this.renderPromotions()
                         )
                     )
