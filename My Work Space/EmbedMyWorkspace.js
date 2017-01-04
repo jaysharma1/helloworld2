@@ -72,7 +72,7 @@ var MyCollaborationssubgroup = React.createClass({
                 React.createElement(
                     "a",
                     null,
-                    React.createElement("img", { src: "#" })
+                    React.createElement("img", { src: this.props.appfeeditem.imgsrc })
                 )
             ),
             React.createElement(
