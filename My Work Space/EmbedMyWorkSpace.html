@@ -1,0 +1,71 @@
+<div id="mycollaborationsRoot">
+        <!-- this portion is managed by react -->
+    </div>
+<script type="text/javascript" src="/SiteAssets/pnp-ww.js"
+          ww-appname="myappmodule" 
+          ww-appbind="myappmodule.Load"
+          ww-appscripts=
+            '[{"src": "https://unpkg.com/react@15/dist/react.js", "priority":0},
+              {"src": "https://unpkg.com/react-dom@15/dist/react-dom.js", "priority":1},                                
+              {"src": "/siteassets/mycomponentvisible.js", "priority":2},
+              {"src": "/siteassets/EmbedMyWorkspace.js", "priority":4}             
+             ]'>
+  </script>
+  <style>
+                .mycollaborationsbox {
+                  display: inline-block !important;
+                  width: 100%;
+                  padding-left:10px;
+                  padding-right:10px;
+                }
+                @media (max-width: 699px) {
+                  .mycollaborationsbox {
+                    padding-left:0px;
+                    padding-right:0px;
+                  }
+                }
+                .mycollaborationsbox [class*="col-"] {
+                  max-width: none;
+                }
+                .mycollaborationsbox .slick-prev, .mycollaborationsbox .slick-next {
+                  height: 100px;
+                  width: 20px;
+                  /*border: 1px solid #999999;*/
+                  z-index: 2;
+                }
+                .mycollaborationsbox .slick-prev {
+                  left: -3px;
+                }
+                .mycollaborationsbox .slick-next {
+                  right: -3px;
+                }
+                @media (max-width: 699px) {
+                  .mycollaborationsbox .slick-prev {
+                    left: 0px;
+                  }
+                  .mycollaborationsbox .slick-next {
+                    right: 0px;
+                  }
+                }
+                .mycollaborationsbox .slick-prev:hover, .mycollaborationsbox .slick-next:hover {
+                  background-color: #EEEEEE;
+                }
+                .mycollaborationsbox .slick-prev:before, .mycollaborationsbox .slick-next:before {
+                  color: #808080;
+                  font-family: 'Glyphicons Halflings';
+                  font-size: 20px;
+                }
+                .mycollaborationsbox .slick-prev:before, .mycollaborationsbox .slick-next:before {
+                  content: "\e079";
+                }
+                .mycollaborationsbox .slick-next:before, .mycollaborationsbox .slick-next:before {
+                  content: "\e080";
+                }
+                .mycollaborationsbox .slick-prev:before {
+                  margin-left: 0px;
+                }
+                .mycollaborationsbox .slick-next:before {
+                  margin-right: 0px;
+                }
+              </style>
+            

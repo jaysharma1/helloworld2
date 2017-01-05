@@ -9,11 +9,11 @@
    var MyApp = React.createClass({    
            
                 render() {
-                      return (<div className="item match-height">
-                       <div className="leftcol">
+                      return (<div class="item match-height">
+                       <div class="leftcol">
                          <a href="myapps_goms.html"><img src={this.props.appitem.ImageUrl} /></a>
                        </div>
-                       <div className="rightcol">
+                       <div class="rightcol">
                          <h5><a href="myapps_goms.html">{this.props.appitem.Title}</a></h5>
                        </div>
                      </div>);
@@ -64,24 +64,24 @@ var MyAppdata = React.createClass({
                     ));                   
                 },            
                  render() {
-                     return (<div className="col-md-12">
-               <div className="headingtitlebox">
-                 <h2 className="headingtitle">
+                     return (<div class="col-md-12">
+               <div class="headingtitlebox">
+                 <h2 class="headingtitle">
                     My Apps
                  </h2>
-                 <div className="all">
+                 <div class="all">
                    <a href="#">ALL</a>&nbsp;&nbsp;
-                   <a href="#"><i className="fa fa-gear"></i></a>
+                   <a href="#"><i class="fa fa-gear"></i></a>
                  </div>
                </div>
-                <div className="col-md-12 myappsbox">
-               <div className="stdbox">
-                 <div className="stdbar">&nbsp;</div>
-                 <div className="stdiconbox">
-                   <div className="stdicon glyphicon glyphicon-th"></div>
+                <div class="col-md-12 myappsbox">
+               <div class="stdbox">
+                 <div class="stdbar">&nbsp;</div>
+                 <div class="stdiconbox">
+                   <div class="stdicon glyphicon glyphicon-th"></div>
                  </div>
-                 <div className="myappsgroup">
-                   <div className="myapps-multiple-items">
+                 <div class="myappsgroup">
+                   <div class="myapps-multiple-items">
                       {this.renderPromotions()}
                      </div>
                       </div>                      

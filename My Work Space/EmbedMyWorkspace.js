@@ -249,5 +249,5 @@ var MyCollaborations = React.createClass({
     }
 });
 
-ReactDOM.render(React.createElement(MyCollaborations, null), document.getElementById('mycollaborations'));
+ReactDOM.render(React.createElement(MyCollaborations, null), document.getElementById('mycollaborationsRoot'));
 };

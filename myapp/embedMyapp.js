@@ -1,16 +1,16 @@
 "use strict";
  var myappmodule = myappmodule || {};
-myappmodule.Load = function () {
-"use strict";
+myappmodule.Load = function () {"use strict";
+
 var MyApp = React.createClass({
     displayName: "MyApp",
     render: function render() {
         return React.createElement(
             "div",
-            { className: "item match-height" },
+            { "class": "item match-height" },
             React.createElement(
                 "div",
-                { className: "leftcol" },
+                { "class": "leftcol" },
                 React.createElement(
                     "a",
                     { href: "myapps_goms.html" },
@@ -19,7 +19,7 @@ var MyApp = React.createClass({
             ),
             React.createElement(
                 "div",
-                { className: "rightcol" },
+                { "class": "rightcol" },
                 React.createElement(
                     "h5",
                     null,
@@ -72,18 +72,18 @@ var MyAppdata = React.createClass({
     render: function render() {
         return React.createElement(
             "div",
-            { className: "col-md-12" },
+            { "class": "col-md-12" },
             React.createElement(
                 "div",
-                { className: "headingtitlebox" },
+                { "class": "headingtitlebox" },
                 React.createElement(
                     "h2",
-                    { className: "headingtitle" },
+                    { "class": "headingtitle" },
                     "My Apps"
                 ),
                 React.createElement(
                     "div",
-                    { className: "all" },
+                    { "class": "all" },
                     React.createElement(
                         "a",
                         { href: "#" },
@@ -93,32 +93,32 @@ var MyAppdata = React.createClass({
                     React.createElement(
                         "a",
                         { href: "#" },
-                        React.createElement("i", { className: "fa fa-gear" })
+                        React.createElement("i", { "class": "fa fa-gear" })
                     )
                 )
             ),
             React.createElement(
                 "div",
-                { className: "col-md-12 myappsbox" },
+                { "class": "col-md-12 myappsbox" },
                 React.createElement(
                     "div",
-                    { className: "stdbox" },
+                    { "class": "stdbox" },
                     React.createElement(
                         "div",
-                        { className: "stdbar" },
+                        { "class": "stdbar" },
                         "\xA0"
                     ),
                     React.createElement(
                         "div",
-                        { className: "stdiconbox" },
-                        React.createElement("div", { className: "stdicon glyphicon glyphicon-th" })
+                        { "class": "stdiconbox" },
+                        React.createElement("div", { "class": "stdicon glyphicon glyphicon-th" })
                     ),
                     React.createElement(
                         "div",
-                        { className: "myappsgroup" },
+                        { "class": "myappsgroup" },
                         React.createElement(
                             "div",
-                            { className: "myapps-multiple-items" },
+                            { "class": "myapps-multiple-items" },
                             this.renderPromotions()
                         )
                     )
